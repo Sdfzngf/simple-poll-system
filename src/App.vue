@@ -12,29 +12,29 @@ import { IItem } from '@/models/item';
 
 const templateItems: IItem[] = [
   {
-    id: '你对瑞神的评价',
+    id: 'q1',
     type: 'selection',
-    title: '你对瑞神的评价?',
-    options: ['精彩极了', '还行', '糟糕透了'],
+    title: 'q1:你对瑞神的评价?',
+    options: ['瑞神精彩极了', '瑞神还行', '瑞神糟糕透了'],
     result: {
       type: 'chart',
       chartType: 'doughnut'
     }
   },
   {
-    id: '你对祥神的评价',
+    id: 'q2',
     type: 'selection',
-    title: '你对祥神的评价?',
-    options: ['夯爆了', '一般', '拉完了'],
+    title: 'q2:你对祥神的评价?',
+    options: ['祥神夯爆了', '祥神一般', '祥神拉完了'],
     result: {
       type: 'chart',
       chartType: 'doughnut'
     }
   },
   {
-    id: '您今天吃了吗',
+    id: 'q3',
     type: 'selection',
-    title: '您今天吃了吗?',
+    title: 'q3:您今天吃了吗?',
     options: ['吃了', '没有', '不知道'],
     result: {
       type: 'chart',
