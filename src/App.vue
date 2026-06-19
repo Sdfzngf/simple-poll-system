@@ -14,8 +14,8 @@ const templateItems: IItem[] = [
   {
     id: 'q1',
     type: 'selection',
-    title: 'What is your favorite pet?',
-    options: ['Cats', 'Dogs', 'Birds'],
+    title: '你对瑞神的评价?',
+    options: ['精彩极了', '还行', '糟糕透了'],
     result: {
       type: 'chart',
       chartType: 'doughnut'
@@ -24,8 +24,8 @@ const templateItems: IItem[] = [
   {
     id: 'q2',
     type: 'selection',
-    title: 'What is your favorite color?',
-    options: ['Red', 'Blue', 'Green'],
+    title: '你对祥神的评价?',
+    options: ['夯爆了', '一般', '拉完了'],
     result: {
       type: 'chart',
       chartType: 'doughnut'
@@ -34,8 +34,8 @@ const templateItems: IItem[] = [
   {
     id: 'q3',
     type: 'selection',
-    title: 'What is your favorite food?',
-    options: ['Pizza', 'Pasta', 'Salad'],
+    title: '您今天吃了吗?',
+    options: ['吃了', '没有', '不知道'],
     result: {
       type: 'chart',
       chartType: 'doughnut'
